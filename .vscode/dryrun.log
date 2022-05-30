@@ -1,0 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/CProjects/SimpleRoguelike'
+gcc -Wall -std=c99 src/main.c src/ass3.c -Iinclude -o bin/runMe -lncurses
+make: Leaving directory 'c:/CProjects/SimpleRoguelike'
+ 
